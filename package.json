@@ -1,0 +1,31 @@
+{
+  "name": "pet-sitter",
+  "version": "0.0.0",
+  "description": "Pet sitter job simulator (because it takes real work to simulate fake work)",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "mocha test --recursive -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ABarnhard/pet-sitter"
+  },
+  "author": "Adam Barnhard <admbarn@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ABarnhard/pet-sitter/issues"
+  },
+  "homepage": "https://github.com/ABarnhard/pet-sitter",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "jshint-stylish": "^0.4.0",
+    "mocha": "^1.20.1"
+  },
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "sync-prompt": "^0.4.1"
+  }
+}
